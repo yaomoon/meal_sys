@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFER_SIZE	socket.h	4;"	d
+BUFFER_SIZE	socketbkp.c	12;"	d	file:
+SERVER_PORT	socket.c	15;"	d	file:
+SERVER_PORT	socketbkp.c	11;"	d	file:
+buff	socket.h	/^    char buff[BUFFER_SIZE*10];$/;"	m	struct:socket_data
+daccept	socket.c	/^void daccept(int socket_bind)$/;"	f
+id	socket.h	/^    int id;$/;"	m	struct:socket_data
+main	server.c	/^int main(int argc, const char *argv[])$/;"	f
+name	socket.h	/^    char name[BUFFER_SIZE];$/;"	m	struct:socket_data
+recv_meg	socket.c	/^void recv_meg()$/;"	f
+socket_data	socket.h	/^struct socket_data {$/;"	s
+socket_init	socket.c	/^int socket_init()$/;"	f
+socket_init	socketbkp.c	/^int socket_init()$/;"	f
+thread_handler	socket.c	/^void thread_handler() \/\/看多线程是不是可以用同一个handler函数。$/;"	f

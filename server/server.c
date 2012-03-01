@@ -17,7 +17,7 @@ int main(int argc, const char *argv[])
         exit(1);
     } else if (pid == 0) {
         printf("this is the child process\n");
-        socket_init();
+        server_init();
         exit(1);
     } else {
         printf("this is the parent process\n");
